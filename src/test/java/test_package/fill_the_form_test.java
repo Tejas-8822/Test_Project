@@ -14,6 +14,7 @@ public class fill_the_form_test extends test_base_class {
   {
 	  
 	  form.name("Tejas", "Patil");
+	  form.Adress("Bhadgon, dist. Jalgaon");
 	  
 	  Thread.sleep(3000);
   }

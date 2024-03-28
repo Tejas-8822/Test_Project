@@ -11,7 +11,7 @@ public class form extends test_base_class
 	
 	@FindBy(xpath = "//input[@placeholder='First Name']") private WebElement first_name;
 	@FindBy(xpath = "//input[@placeholder='Last Name']") private WebElement last_name;
-	
+	@FindBy(xpath = "//textarea[@ng-model = 'Adress']") private WebElement Adress;
 	
 	public form() {
 		PageFactory.initElements(driver,this);
@@ -24,5 +24,10 @@ public class form extends test_base_class
 		first_name.sendKeys(fn);
 		last_name.sendKeys(ln);
 		
+	}
+	
+	public void Adress(String adr)
+	{
+		Adress.sendKeys(adr);
 	}
 }
