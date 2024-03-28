@@ -18,6 +18,6 @@ public class fill_the_form_test extends test_base_class {
 	  Thread.sleep(1000);
 	  form.email("tejas.patil@gmail.com");
 	  
-	  Thread.sleep(3000);
+	  Thread.sleep(4000);
   }
 }
